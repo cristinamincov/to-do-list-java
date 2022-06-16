@@ -1,0 +1,13 @@
+model\Task.class
+service\ApplicationService.class
+dao\ToDoListDao.class
+dao\jdbc\TaskDaoJDBC.class
+dao\TaskDao.class
+config\ToDoListDBManager.class
+config\Initializer.class
+config\ApplicationProperties.class
+config\TemplateEngineUtil.class
+model\ToDoList.class
+dao\jdbc\ToDoListDaoJDBC.class
+controller\HomeServlet.class
+config\ThymeleafConfig.class

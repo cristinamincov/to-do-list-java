@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>To Do List</title>
+</head>
+<body>
+<div class="flexContainer">
+
+    <!--    Attraction Info    -->
+    <div id="myModal" class="modal">
+<!--    <div class="Add">-->
+<!--        <div class="Task">-->
+            <button class="addBtn" id="addBtn">Add Task</button>
+
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="center">
+            <p>Add Task</p>
+            <form method="post" action="/">
+                <div class="txt_field">
+                    <input type="text" id="name" name= "name" required="">
+                    <span></span>
+                    <label for="name"><b>Task</b></label>
+                </div>
+                <div class="txt_field">
+                    <input type="date" id="time_limit" name="deadline" required="" >
+                    <label for="time_limit"><b>Deadline</b></label>
+                </div>
+                <div class="txt_field">
+                    <input type="time" id="duration" name="estimated time" required="">
+                    <label for="duration"><b>Estimated Time</b></label>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+</div>
+</div>
+</body>
+</html>
